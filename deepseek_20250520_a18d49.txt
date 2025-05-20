@@ -1,0 +1,13 @@
+beauty-salon-website/
+├── index.html          # Main website file
+├── styles.css         # Styling
+├── scripts.js         # Interactive elements
+├── images/            # All website images
+│   ├── hero-bg.jpg
+│   ├── studio-interior.jpg
+│   ├── waxing.jpg
+│   ├── sugaring.jpg
+│   ├── threading.jpg
+│   ├── facial.jpg
+│   └── logo.png
+└── README.md          # Project documentation
