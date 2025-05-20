@@ -1,4 +1,4 @@
-beauty-salon-website/
+iibeauty-salon-website/
 ├── index.html          # Main website file
 ├── styles.css         # Styling
 ├── scripts.js         # Interactive elements
