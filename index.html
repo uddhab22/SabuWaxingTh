@@ -3,89 +3,90 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bliss Beauty Studio | Waxing, Sugaring, Threading & Facials</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <link rel="icon" href="images/logo.png" type="image/png">
+    <title>SABU Waxing & Threading - Professional Hair Removal & Facials</title>
+    <link rel="stylesheet" href="sabu-styles.css">
 </head>
 <body>
-    <!-- Header with Navigation -->
+    <!-- Header -->
     <header>
         <div class="container">
-            <div class="logo">
-                <img src="images/logo.png" alt="Bliss Beauty Studio Logo" height="50">
-                <h1>Bliss Beauty Studio</h1>
-            </div>
             <nav>
-                <ul>
+                <a href="#" class="logo">SABU<span>Waxing & Threading</span></a>
+                <ul class="nav-links">
                     <li><a href="#home">Home</a></li>
                     <li><a href="#services">Services</a></li>
                     <li><a href="#about">About</a></li>
-                    <li><a href="#pricing">Pricing</a></li>
-                    <li><a href="#gallery">Gallery</a></li>
                     <li><a href="#contact">Contact</a></li>
-                    <li><a href="#booking" class="btn">Book Now</a></li>
                 </ul>
+                <a href="https://sabu037a.setmore.com/sabu" class="book-btn">Book Now</a>
             </nav>
-            <div class="mobile-menu-btn">
-                <i class="fas fa-bars"></i>
-            </div>
         </div>
     </header>
-
-    <!-- Mobile Menu (hidden by default) -->
-    <div class="mobile-menu">
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#pricing">Pricing</a></li>
-            <li><a href="#gallery">Gallery</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li><a href="#booking" class="btn">Book Now</a></li>
-        </ul>
-    </div>
 
     <!-- Hero Section -->
     <section class="hero" id="home">
         <div class="container">
-            <h2>Reveal Your Natural Beauty</h2>
-            <p>Professional waxing, sugaring, threading and facial treatments in a relaxing environment</p>
-            <div class="cta-buttons">
-                <a href="#booking" class="btn">Book Appointment</a>
-                <a href="#services" class="btn secondary">Our Services</a>
-            </div>
+            <h1>Your Path to Radiant Beauty</h1>
+            <p>Experience premium hair removal and skin care services in a relaxing, professional environment. Our expert technicians specialize in waxing, sugaring, threading, and rejuvenating facials.</p>
+            <a href="https://sabu037a.setmore.com/sabu" class="book-btn">Book an Appointment</a>
         </div>
     </section>
 
     <!-- Services Section -->
     <section class="services" id="services">
         <div class="container">
-            <h2>Our Services</h2>
+            <h2 class="section-title">Our Services</h2>
             <div class="services-grid">
+                <!-- Waxing Card -->
                 <div class="service-card">
-                    <img src="images/waxing.jpg" alt="Waxing Service">
-                    <h3>Waxing</h3>
-                    <p>Full body waxing services using premium products for smooth, lasting results.</p>
-                    <a href="#waxing-pricing" class="btn small">View Pricing</a>
+                    <div class="service-img">
+                        <img src="/api/placeholder/400/320" alt="Waxing Service">
+                    </div>
+                    <div class="service-content">
+                        <h3>Waxing</h3>
+                        <p>Our waxing treatments provide smooth, long-lasting results using premium quality wax that's gentle on your skin.</p>
+                        <p>Services include: Full body, Brazilian, Bikini, Face, Underarms, Legs, and more.</p>
+                        <p class="service-price">Starting from $25</p>
+                    </div>
                 </div>
+                
+                <!-- Sugaring Card -->
                 <div class="service-card">
-                    <img src="images/sugaring.jpg" alt="Sugaring Service">
-                    <h3>Sugaring</h3>
-                    <p>Natural hair removal alternative that's gentle on sensitive skin.</p>
-                    <a href="#sugaring-pricing" class="btn small">View Pricing</a>
+                    <div class="service-img">
+                        <img src="/api/placeholder/400/320" alt="Sugaring Service">
+                    </div>
+                    <div class="service-content">
+                        <h3>Sugaring</h3>
+                        <p>A natural alternative to waxing, our sugaring technique removes hair in the direction of growth for less discomfort and irritation.</p>
+                        <p>Perfect for sensitive skin and all body areas.</p>
+                        <p class="service-price">Starting from $35</p>
+                    </div>
                 </div>
+                
+                <!-- Threading Card -->
                 <div class="service-card">
-                    <img src="images/threading.jpg" alt="Threading Service">
-                    <h3>Threading</h3>
-                    <p>Precise eyebrow shaping and facial hair removal with traditional technique.</p>
-                    <a href="#threading-pricing" class="btn small">View Pricing</a>
+                    <div class="service-img">
+                        <img src="/api/placeholder/400/320" alt="Threading Service">
+                    </div>
+                    <div class="service-content">
+                        <h3>Threading</h3>
+                        <p>Achieve precise eyebrow shaping and facial hair removal with our expert threading services. Natural and chemical-free.</p>
+                        <p>Areas include: Eyebrows, Upper lip, Chin, Full face.</p>
+                        <p class="service-price">Starting from $15</p>
+                    </div>
                 </div>
+                
+                <!-- Facial Card -->
                 <div class="service-card">
-                    <img src="images/facial.jpg" alt="Facial Service">
-                    <h3>Facials</h3>
-                    <p>Customized facial treatments to rejuvenate and nourish your skin.</p>
-                    <a href="#facial-pricing" class="btn small">View Pricing</a>
+                    <div class="service-img">
+                        <img src="/api/placeholder/400/320" alt="Facial Service">
+                    </div>
+                    <div class="service-content">
+                        <h3>Facials</h3>
+                        <p>Rejuvenate your skin with our customized facial treatments. Each facial is tailored to your specific skin needs.</p>
+                        <p>Options include: Deep cleansing, Anti-aging, Hydrating, Acne treatment, and more.</p>
+                        <p class="service-price">Starting from $60</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -94,347 +95,67 @@
     <!-- About Section -->
     <section class="about" id="about">
         <div class="container">
+            <h2 class="section-title">About Us</h2>
             <div class="about-content">
-                <h2>About Our Studio</h2>
-                <p>Welcome to Bliss Beauty Studio, where we combine expertise with personalized care to deliver exceptional beauty services. Our licensed estheticians are dedicated to helping you look and feel your best.</p>
-                <p>We use only high-quality products and maintain the strictest hygiene standards to ensure your comfort and safety during every treatment.</p>
-                <div class="features">
-                    <div class="feature">
-                        <i class="fas fa-certificate"></i>
-                        <span>Certified Professionals</span>
-                    </div>
-                    <div class="feature">
-                        <i class="fas fa-spa"></i>
-                        <span>Premium Products</span>
-                    </div>
-                    <div class="feature">
-                        <i class="fas fa-heart"></i>
-                        <span>Personalized Care</span>
-                    </div>
+                <div class="about-img">
+                    <img src="/api/placeholder/600/400" alt="Salon Interior">
+                </div>
+                <div class="about-text">
+                    <h2>Welcome to SABU Waxing & Threading</h2>
+                    <p>At SABU Waxing & Threading, we believe everyone deserves to feel confident in their own skin. Our salon was founded with a commitment to providing high-quality beauty services in a clean, comfortable environment.</p>
+                    <p>Our team of certified beauty professionals brings years of experience and a passion for helping clients look and feel their best. We use only premium products and the latest techniques to ensure exceptional results.</p>
+                    <p>Whether you're seeking smooth, hair-free skin or a revitalizing facial treatment, we're dedicated to making your experience relaxing and the results remarkable.</p>
                 </div>
             </div>
-            <div class="about-image">
-                <img src="images/studio-interior.jpg" alt="Our Beauty Studio">
-            </div>
-        </div>
-    </section>
-
-    <!-- Pricing Section -->
-    <section class="pricing" id="pricing">
-        <div class="container">
-            <h2>Service Menu & Pricing</h2>
-            
-            <div class="pricing-tabs">
-                <button class="tab-btn active" data-tab="waxing">Waxing</button>
-                <button class="tab-btn" data-tab="sugaring">Sugaring</button>
-                <button class="tab-btn" data-tab="threading">Threading</button>
-                <button class="tab-btn" data-tab="facials">Facials</button>
-            </div>
-            
-            <div class="pricing-content">
-                <div class="tab-pane active" id="waxing-pricing">
-                    <h3>Waxing Services</h3>
-                    <table>
-                        <tr>
-                            <td>Eyebrows</td>
-                            <td>$15</td>
-                        </tr>
-                        <tr>
-                            <td>Upper Lip</td>
-                            <td>$10</td>
-                        </tr>
-                        <tr>
-                            <td>Chin</td>
-                            <td>$12</td>
-                        </tr>
-                        <tr>
-                            <td>Full Face</td>
-                            <td>$35</td>
-                        </tr>
-                        <tr>
-                            <td>Underarms</td>
-                            <td>$20</td>
-                        </tr>
-                        <tr>
-                            <td>Half Leg</td>
-                            <td>$35</td>
-                        </tr>
-                        <tr>
-                            <td>Full Leg</td>
-                            <td>$55</td>
-                        </tr>
-                        <tr>
-                            <td>Brazilian</td>
-                            <td>$55+</td>
-                        </tr>
-                    </table>
-                </div>
-                
-                <div class="tab-pane" id="sugaring-pricing">
-                    <h3>Sugaring Services</h3>
-                    <table>
-                        <tr>
-                            <td>Eyebrows</td>
-                            <td>$18</td>
-                        </tr>
-                        <tr>
-                            <td>Upper Lip</td>
-                            <td>$12</td>
-                        </tr>
-                        <tr>
-                            <td>Chin</td>
-                            <td>$15</td>
-                        </tr>
-                        <tr>
-                            <td>Full Face</td>
-                            <td>$40</td>
-                        </tr>
-                        <tr>
-                            <td>Underarms</td>
-                            <td>$25</td>
-                        </tr>
-                        <tr>
-                            <td>Half Leg</td>
-                            <td>$40</td>
-                        </tr>
-                        <tr>
-                            <td>Full Leg</td>
-                            <td>$60</td>
-                        </tr>
-                    </table>
-                </div>
-                
-                <div class="tab-pane" id="threading-pricing">
-                    <h3>Threading Services</h3>
-                    <table>
-                        <tr>
-                            <td>Eyebrows</td>
-                            <td>$12</td>
-                        </tr>
-                        <tr>
-                            <td>Upper Lip</td>
-                            <td>$8</td>
-                        </tr>
-                        <tr>
-                            <td>Chin</td>
-                            <td>$10</td>
-                        </tr>
-                        <tr>
-                            <td>Full Face</td>
-                            <td>$30</td>
-                        </tr>
-                        <tr>
-                            <td>Sideburns</td>
-                            <td>$15</td>
-                        </tr>
-                    </table>
-                </div>
-                
-                <div class="tab-pane" id="facial-pricing">
-                    <h3>Facial Services</h3>
-                    <table>
-                        <tr>
-                            <td>Basic Facial</td>
-                            <td>$60</td>
-                        </tr>
-                        <tr>
-                            <td>Deep Cleansing</td>
-                            <td>$75</td>
-                        </tr>
-                        <tr>
-                            <td>Anti-Aging</td>
-                            <td>$85</td>
-                        </tr>
-                        <tr>
-                            <td>Teen Facial</td>
-                            <td>$50</td>
-                        </tr>
-                        <tr>
-                            <td>Men's Facial</td>
-                            <td>$70</td>
-                        </tr>
-                        <tr>
-                            <td>Bridal Package</td>
-                            <td>$120</td>
-                        </tr>
-                    </table>
-                </div>
-            </div>
-            
-            <p class="pricing-note">*Prices may vary based on individual needs. Package deals available.</p>
-        </div>
-    </section>
-
-    <!-- Gallery Section -->
-    <section class="gallery" id="gallery">
-        <div class="container">
-            <h2>Our Work</h2>
-            <div class="gallery-grid">
-                <img src="images/waxing.jpg" alt="Waxing Results">
-                <img src="images/threading.jpg" alt="Threading Results">
-                <img src="images/facial.jpg" alt="Facial Results">
-                <img src="images/sugaring.jpg" alt="Sugaring Results">
-                <img src="images/studio-interior.jpg" alt="Studio Environment">
-                <img src="images/hero-bg.jpg" alt="Happy Client">
-            </div>
-        </div>
-    </section>
-
-    <!-- Booking Section -->
-    <section class="booking" id="booking">
-        <div class="container">
-            <h2>Book Your Appointment</h2>
-            <form id="appointment-form">
-                <div class="form-row">
-                    <div class="form-group">
-                        <label for="name">Full Name</label>
-                        <input type="text" id="name" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="email">Email</label>
-                        <input type="email" id="email" required>
-                    </div>
-                </div>
-                
-                <div class="form-row">
-                    <div class="form-group">
-                        <label for="phone">Phone Number</label>
-                        <input type="tel" id="phone" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="service">Service</label>
-                        <select id="service" required>
-                            <option value="">Select Service</option>
-                            <option>Waxing</option>
-                            <option>Sugaring</option>
-                            <option>Threading</option>
-                            <option>Facial</option>
-                            <option>Combination</option>
-                        </select>
-                    </div>
-                </div>
-                
-                <div class="form-row">
-                    <div class="form-group">
-                        <label for="date">Date</label>
-                        <input type="date" id="date" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="time">Time</label>
-                        <input type="time" id="time" required>
-                    </div>
-                </div>
-                
-                <div class="form-group">
-                    <label for="notes">Special Requests</label>
-                    <textarea id="notes" rows="3"></textarea>
-                </div>
-                
-                <button type="submit" class="btn">Confirm Booking</button>
-            </form>
         </div>
     </section>
 
     <!-- Testimonials Section -->
-    <section class="testimonials">
-        <div class="container">
-            <h2>Client Testimonials</h2>
-            <div class="testimonial-slider">
-                <div class="testimonial active">
-                    <p>"The best threading I've ever had! So precise and virtually painless."</p>
-                    <div class="client-info">
-                        <span class="client-name">Sarah M.</span>
-                        <span class="client-rating">★★★★★</span>
-                    </div>
-                </div>
-                <div class="testimonial">
-                    <p>"I switched to sugaring here and will never go back to waxing. So much gentler on my skin."</p>
-                    <div class="client-info">
-                        <span class="client-name">Jessica T.</span>
-                        <span class="client-rating">★★★★★</span>
-                    </div>
-                </div>
-                <div class="testimonial">
-                    <p>"The facial transformed my skin. I've gotten so many compliments since my treatment."</p>
-                    <div class="client-info">
-                        <span class="client-name">Amanda K.</span>
-                        <span class="client-rating">★★★★☆</span>
-                    </div>
-                </div>
-            </div>
-            <div class="slider-controls">
-                <button class="prev-btn"><i class="fas fa-chevron-left"></i></button>
-                <div class="slider-dots"></div>
-                <button class="next-btn"><i class="fas fa-chevron-right"></i></button>
-            </div>
-        </div>
-    </section>
+    <!-- Removed as requested -->
 
     <!-- Contact Section -->
     <section class="contact" id="contact">
         <div class="container">
-            <div class="contact-info">
-                <h2>Contact Us</h2>
-                <p><i class="fas fa-map-marker-alt"></i> 123 Beauty Ave, Your City, ST 12345</p>
-                <p><i class="fas fa-phone"></i> (555) 123-4567</p>
-                <p><i class="fas fa-envelope"></i> info@blissbeautystudio.com</p>
-                <p><i class="fas fa-clock"></i> Hours: Mon-Fri 9am-7pm, Sat 10am-5pm</p>
-                
-                <div class="social-links">
-                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                    <a href="#"><i class="fab fa-yelp"></i></a>
-                    <a href="#"><i class="fab fa-tiktok"></i></a>
+            <h2 class="section-title">Contact Us</h2>
+            <div class="contact-wrapper">
+                <div class="contact-info" style="width: 100%;">
+                    <h3>Get In Touch</h3>
+                    <div class="contact-details">
+                        <div>
+                            <i>📍</i>
+                            <p>3916 Lanshing CT, Dumfries VA 22026</p>
+                        </div>
+                        <div>
+                            <i>📞</i>
+                            <p>(571) 699-5734</p>
+                        </div>
+                        <div>
+                            <i>✉️</i>
+                            <p>trysabuwaxing@gmail.com</p>
+                        </div>
+                    </div>
+                    <h3>Opening Hours</h3>
+                    <div class="contact-details">
+                        <div>
+                            <p>Monday - Friday: 11:00 AM - 7:00 PM</p>
+                        </div>
+                        <div>
+                            <p>Saturday - Sunday: 10:00 AM - 6:00 PM</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-            
-            <div class="contact-form">
-                <h3>Send Us a Message</h3>
-                <form id="contact-form">
-                    <div class="form-group">
-                        <input type="text" placeholder="Your Name" required>
-                    </div>
-                    <div class="form-group">
-                        <input type="email" placeholder="Email" required>
-                    </div>
-                    <div class="form-group">
-                        <input type="text" placeholder="Subject">
-                    </div>
-                    <div class="form-group">
-                        <textarea placeholder="Your Message" rows="4" required></textarea>
-                    </div>
-                    <button type="submit" class="btn">Send Message</button>
-                </form>
-            </div>
-        </div>
-    </section>
-
-    <!-- Map Section -->
-    <div class="map">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.215373510548!2d-73.98784492452545!3d40.74844097138946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDDCsDQ0JzU0LjQiTiA3M8KwNTknMDkuNyJX!5e0!3m2!1sen!2sus!4v1620000000000!5m2!1sen!2sus" allowfullscreen="" loading="lazy"></iframe>
-    </div>
-
-    <!-- FAQ Section -->
-    <section class="faq">
-        <div class="container">
-            <h2>Frequently Asked Questions</h2>
-            <div class="faq-item">
-                <button class="faq-question">How should I prepare for my waxing appointment?</button>
-                <div class="faq-answer">
-                    <p>For best results, exfoliate the area 24 hours before your appointment and avoid moisturizers on the day. Hair should be at least 1/4 inch long (about the length of a grain of rice). Avoid sun exposure and tanning 24 hours before and after your appointment.</p>
-                </div>
-            </div>
-            <div class="faq-item">
-                <button class="faq-question">What's the difference between waxing and sugaring?</button>
-                <div class="faq-answer">
-                    <p>Sugaring uses a natural paste made of sugar, lemon, and water that's applied at body temperature and removes hair in the direction of growth. It's less painful than waxing and better for sensitive skin. Waxing uses resin-based wax that's applied warm and removed against the direction of hair growth.</p>
-                </div>
-            </div>
-            <div class="faq-item">
-                <button class="faq-question">How often should I get facials?</button>
-                <div class="faq-answer">
-                    <p>For most skin types, we recommend a facial every 4-6 weeks to maintain optimal skin health. This aligns with the skin's natural renewal cycle. However, we can customize a schedule based on your specific skin concerns and goals during your consultation.</p>
-                </div>
+            <div class="map-container" style="height: 400px; border-radius: 10px; overflow: hidden; box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); margin-top: 30px;">
+                <!-- Embedding Google Maps iframe with the address -->
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3124.775962175777!2d-77.34605052346693!3d38.55978087111244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b6f2a2ef02e4a7%3A0x9e14c0cfd7d21d3d!2s3916%20Lansing%20Ct%2C%20Dumfries%2C%20VA%2022026!5e0!3m2!1sen!2sus!4v1716367749063!5m2!1sen!2sus" 
+                    width="100%" 
+                    height="100%" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
             </div>
         </div>
     </section>
@@ -443,48 +164,36 @@
     <footer>
         <div class="container">
             <div class="footer-content">
-                <div class="footer-logo">
-                    <img src="images/logo.png" alt="Bliss Beauty Studio" height="40">
-                    <p>Professional skin care services to enhance your natural beauty.</p>
+                <div class="footer-section">
+                    <h3>SABU Waxing & Threading</h3>
+                    <p>Your destination for premium beauty services and treatments. Professional care for radiant results.</p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/sabuwaxing" target="_blank"><span>Instagram @sabuwaxing</span></a>
+                    </div>
                 </div>
-                <div class="footer-links">
+                <div class="footer-section">
                     <h3>Quick Links</h3>
                     <ul>
                         <li><a href="#home">Home</a></li>
                         <li><a href="#services">Services</a></li>
-                        <li><a href="#pricing">Pricing</a></li>
-                        <li><a href="#about">About</a></li>
+                        <li><a href="#about">About Us</a></li>
                         <li><a href="#contact">Contact</a></li>
                     </ul>
                 </div>
-                <div class="footer-services">
+                <div class="footer-section">
                     <h3>Services</h3>
                     <ul>
-                        <li><a href="#waxing-pricing">Waxing</a></li>
-                        <li><a href="#sugaring-pricing">Sugaring</a></li>
-                        <li><a href="#threading-pricing">Threading</a></li>
-                        <li><a href="#facial-pricing">Facials</a></li>
+                        <li><a href="#services">Waxing</a></li>
+                        <li><a href="#services">Sugaring</a></li>
+                        <li><a href="#services">Threading</a></li>
+                        <li><a href="#services">Facials</a></li>
                     </ul>
-                </div>
-                <div class="footer-newsletter">
-                    <h3>Newsletter</h3>
-                    <p>Subscribe for special offers and beauty tips</p>
-                    <form>
-                        <input type="email" placeholder="Your Email">
-                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
-                    </form>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2023 Bliss Beauty Studio. All rights reserved.</p>
-                <div class="legal-links">
-                    <a href="#">Privacy Policy</a>
-                    <a href="#">Terms of Service</a>
-                </div>
+                <p>&copy; 2025 SABU Waxing & Threading. All Rights Reserved.</p>
             </div>
         </div>
     </footer>
-
-    <script src="scripts.js"></script>
 </body>
 </html>
