@@ -5,13 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SABU Waxing & Threading - Professional Hair Removal & Facials</title>
     <link rel="stylesheet" href="sabu-styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
     <!-- Header -->
     <header>
         <div class="container">
             <nav>
-                <a href="#" class="logo">SABU <span> Waxing & Threading</span></a>
+                <a href="#" class="logo">SABU <span>Waxing & Threading</span></a>
+                <div class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
                 <ul class="nav-links">
                     <li><a href="#home">Home</a></li>
                     <li><a href="#services">Services</a></li>
@@ -25,28 +29,73 @@
 
     <!-- Hero Section -->
     <section class="hero" id="home">
+        <div class="hero-overlay"></div>
         <div class="container">
-            <h1>Your Path to Radiant Beauty</h1>
-            <p>Experience premium hair removal and skin care services in a relaxing, professional environment. Our expert technicians specialize in waxing, sugaring, threading, and rejuvenating facials.</p>
-            <a href="https://sabu037a.setmore.com/sabu" class="book-btn">Book an Appointment</a>
+            <div class="hero-content">
+                <h1>Your Path to <span class="highlight">Radiant Beauty</span></h1>
+                <p>Experience premium hair removal and skin care services in a relaxing, professional environment.</p>
+                <div class="hero-buttons">
+                    <a href="https://sabu037a.setmore.com/sabu" class="book-btn primary-btn">Book an Appointment</a>
+                    <a href="#services" class="secondary-btn">Explore Services</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3>Expert Technicians</h3>
+                    <p>Highly trained specialists with years of experience</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>Premium Products</h3>
+                    <p>Quality ingredients gentle on all skin types</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-smile"></i>
+                    </div>
+                    <h3>Satisfaction Guaranteed</h3>
+                    <p>Your comfort and results are our priority</p>
+                </div>
+            </div>
         </div>
     </section>
 
     <!-- Services Section -->
     <section class="services" id="services">
         <div class="container">
-            <h2 class="section-title">Our Services</h2>
+            <div class="section-header">
+                <h2 class="section-title">Our Services</h2>
+                <p class="section-subtitle">Professional treatments tailored to your needs</p>
+            </div>
             <div class="services-grid">
                 <!-- Waxing Card -->
                 <div class="service-card">
                     <div class="service-img">
                         <img src="/api/placeholder/400/320" alt="Waxing Service">
+                        <div class="service-badge">Most Popular</div>
                     </div>
                     <div class="service-content">
                         <h3>Waxing</h3>
                         <p>Our waxing treatments provide smooth, long-lasting results using premium quality wax that's gentle on your skin.</p>
-                        <p>Services include: Full body, Brazilian, Bikini, Face, Underarms, Legs, and more.</p>
+                        <ul class="service-list">
+                            <li>Full body waxing</li>
+                            <li>Brazilian & Bikini</li>
+                            <li>Face & Underarms</li>
+                            <li>Legs & Arms</li>
+                        </ul>
                         <p class="service-price">Starting from $25</p>
+                        <a href="https://sabu037a.setmore.com/sabu" class="service-btn">Book Now</a>
                     </div>
                 </div>
                 
@@ -58,8 +107,14 @@
                     <div class="service-content">
                         <h3>Sugaring</h3>
                         <p>A natural alternative to waxing, our sugaring technique removes hair in the direction of growth for less discomfort and irritation.</p>
-                        <p>Perfect for sensitive skin and all body areas.</p>
+                        <ul class="service-list">
+                            <li>Gentle on sensitive skin</li>
+                            <li>100% natural ingredients</li>
+                            <li>Less ingrown hairs</li>
+                            <li>Suitable for all body areas</li>
+                        </ul>
                         <p class="service-price">Starting from $35</p>
+                        <a href="https://sabu037a.setmore.com/sabu" class="service-btn">Book Now</a>
                     </div>
                 </div>
                 
@@ -71,8 +126,14 @@
                     <div class="service-content">
                         <h3>Threading</h3>
                         <p>Achieve precise eyebrow shaping and facial hair removal with our expert threading services. Natural and chemical-free.</p>
-                        <p>Areas include: Eyebrows, Upper lip, Chin, Full face.</p>
+                        <ul class="service-list">
+                            <li>Eyebrow shaping</li>
+                            <li>Upper lip & Chin</li>
+                            <li>Full face threading</li>
+                            <li>Precise hair removal</li>
+                        </ul>
                         <p class="service-price">Starting from $15</p>
+                        <a href="https://sabu037a.setmore.com/sabu" class="service-btn">Book Now</a>
                     </div>
                 </div>
                 
@@ -84,8 +145,14 @@
                     <div class="service-content">
                         <h3>Facials</h3>
                         <p>Rejuvenate your skin with our customized facial treatments. Each facial is tailored to your specific skin needs.</p>
-                        <p>Options include: Deep cleansing, Anti-aging, Hydrating, Acne treatment, and more.</p>
-                        <p class="service-price">Starting from $60</p>
+                        <ul class="service-list">
+                            <li>Deep cleansing facials</li>
+                            <li>Anti-aging treatments</li>
+                            <li>Hydrating facials</li>
+                            <li>Acne treatments</li>
+                        </ul>
+                        <p class="service-price">Starting from $75</p>
+                        <a href="https://sabu037a.setmore.com/sabu" class="service-btn">Book Now</a>
                     </div>
                 </div>
             </div>
@@ -95,67 +162,102 @@
     <!-- About Section -->
     <section class="about" id="about">
         <div class="container">
-            <h2 class="section-title">About Us</h2>
             <div class="about-content">
-                <div class="about-img">
-                    <img src="/api/placeholder/600/400" alt="Salon Interior">
-                </div>
                 <div class="about-text">
+                    <div class="section-header left-aligned">
+                        <h2 class="section-title">About Us</h2>
+                        <p class="section-subtitle">Your beauty is our passion</p>
+                    </div>
                     <h2>Welcome to SABU Waxing & Threading</h2>
                     <p>At SABU Waxing & Threading, we believe everyone deserves to feel confident in their own skin. Our salon was founded with a commitment to providing high-quality beauty services in a clean, comfortable environment.</p>
                     <p>Our team of certified beauty professionals brings years of experience and a passion for helping clients look and feel their best. We use only premium products and the latest techniques to ensure exceptional results.</p>
-                    <p>Whether you're seeking smooth, hair-free skin or a revitalizing facial treatment, we're dedicated to making your experience relaxing and the results remarkable.</p>
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Certified Professionals</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Premium Products</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Hygienic Environment</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Personalized Service</span>
+                        </div>
+                    </div>
+                    <a href="#contact" class="about-btn">Contact Us</a>
+                </div>
+                <div class="about-img">
+                    <img src="/api/placeholder/600/400" alt="Salon Interior">
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Testimonials Section -->
-    <!-- Removed as requested -->
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Experience Our Premium Services?</h2>
+                <p>Book your appointment today and step into a world of beauty and relaxation.</p>
+                <a href="https://sabu037a.setmore.com/sabu" class="cta-btn">Book Now</a>
+            </div>
+        </div>
+    </section>
 
     <!-- Contact Section -->
     <section class="contact" id="contact">
         <div class="container">
-            <h2 class="section-title">Contact Us</h2>
+            <div class="section-header">
+                <h2 class="section-title">Contact Us</h2>
+                <p class="section-subtitle">We'd love to hear from you</p>
+            </div>
             <div class="contact-wrapper">
-                <div class="contact-info" style="width: 100%;">
+                <div class="contact-info card">
                     <h3>Get In Touch</h3>
                     <div class="contact-details">
                         <div>
-                            <i>📍</i>
-                            <p>3916 Lanshing CT, Dumfries VA 22026</p>
+                            <i class="fas fa-map-marker-alt icon"></i>
+                            <p>3916 Lansing CT, Dumfries VA 22026</p>
                         </div>
                         <div>
-                            <i>📞</i>
+                            <i class="fas fa-phone-alt icon"></i>
                             <p>(571) 699-5734</p>
                         </div>
                         <div>
-                            <i>✉️</i>
+                            <i class="fas fa-envelope icon"></i>
                             <p>trysabuwaxing@gmail.com</p>
                         </div>
                     </div>
+
                     <h3>Opening Hours</h3>
-                    <div class="contact-details">
+                    <div class="contact-details hours">
                         <div>
-                            <p>Monday - Friday: 11:00 AM - 7:00 PM</p>
+                            <p><strong>Mon – Fri:</strong> 11:00 AM – 7:00 PM</p>
                         </div>
                         <div>
-                            <p>Saturday - Sunday: 10:00 AM - 6:00 PM</p>
+                            <p><strong>Sat – Sun:</strong> 10:00 AM – 6:00 PM</p>
                         </div>
                     </div>
+                    
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/sabuwaxing" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-tiktok"></i></a>
+                    </div>
                 </div>
-            </div>
-            <div class="map-container" style="height: 400px; border-radius: 10px; overflow: hidden; box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); margin-top: 30px;">
-                <!-- Embedding Google Maps iframe with the address -->
-                <iframe 
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3124.775962175777!2d-77.34605052346693!3d38.55978087111244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b6f2a2ef02e4a7%3A0x9e14c0cfd7d21d3d!2s3916%20Lansing%20Ct%2C%20Dumfries%2C%20VA%2022026!5e0!3m2!1sen!2sus!4v1716367749063!5m2!1sen!2sus" 
-                    width="100%" 
-                    height="100%" 
-                    style="border:0;" 
-                    allowfullscreen="" 
-                    loading="lazy" 
-                    referrerpolicy="no-referrer-when-downgrade">
-                </iframe>
+
+                <div class="map-container">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3124.775962175777!2d-77.34605052346693!3d38.55978087111244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b6f2a2ef02e4a7%3A0x9e14c0cfd7d21d3d!2s3916%20Lansing%20Ct%2C%20Dumfries%2C%20VA%2022026!5e0!3m2!1sen!2sus!4v1716367749063!5m2!1sen!2sus"
+                        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
             </div>
         </div>
     </section>
@@ -166,9 +268,9 @@
             <div class="footer-content">
                 <div class="footer-section">
                     <h3>SABU Waxing & Threading</h3>
-                    <p>Your destination for premium beauty services and treatments. Professional care for radiant results.</p>
+                    <p>Your destination for premium beauty services and treatments. Professional care for smooth and healthy results.</p>
                     <div class="social-icons">
-                        <a href="https://www.instagram.com/sabuwaxing" target="_blank"><span>Instagram @sabuwaxing</span></a>
+                        <a href="https://www.instagram.com/sabuwaxing" target="_blank"><i class="fab fa-instagram"></i> <span>@sabuwaxing</span></a>
                     </div>
                 </div>
                 <div class="footer-section">
@@ -189,11 +291,30 @@
                         <li><a href="#services">Facials</a></li>
                     </ul>
                 </div>
+                <div class="footer-section">
+                    <h3>Book an Appointment</h3>
+                    <p>Ready to experience our services? Book your appointment today.</p>
+                    <a href="https://sabu037a.setmore.com/sabu" class="footer-btn">Book Now</a>
+                </div>
             </div>
             <div class="footer-bottom">
                 <p>&copy; 2025 SABU Waxing & Threading. All Rights Reserved.</p>
             </div>
         </div>
     </footer>
+
+    <script>
+        // Mobile menu toggle
+        document.querySelector('.mobile-menu-btn').addEventListener('click', function() {
+            document.querySelector('.nav-links').classList.toggle('active');
+        });
+
+        // Close mobile menu when clicking on links
+        document.querySelectorAll('.nav-links li a').forEach(link => {
+            link.addEventListener('click', function() {
+                document.querySelector('.nav-links').classList.remove('active');
+            });
+        });
+    </script>
 </body>
 </html>
